@@ -5,17 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzabestilling</title>
+
+    <style>
+    h1 {
+        color: white;
+        background-color: red;
+       padding: 10px;
+       border: solid 5px yellow;
+       text-align: center;
+       font-size: 300%;
+       width: 60%;
+    }
+
+    div.header1 {
+        padding: 1px;
+        background-color: lightpink;
+        text-align: center;
+        font-size: 120%;
+        width: 60%;
+        padding: 1%;
+        border: solid 2px grey;
+        user-select: none;
+    }
+
+    div.boks {
+        background-color: lightgrey;
+        border: 2px solid gray;
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        text-align: left;
+    }
+
+    div.img {
+         display: block;
+        margin-left: 13%;
+        margin-right: 20%;
+        width: 71%;
+    }
+
+    div.img2 {
+        display: block;
+        margin-left: 13%;
+        margin-right: 20%;
+        width: 71%;
+    }
+
+    div.link {
+        text-align: left;
+    }
+
+    </style>
 </head>
 <body>
-<button>Stor</button>
-<button>Medium</button>
-<button>Liten</button>
+    <div>
+        <div> 
+            <button>Stor</button>
+        </div>
+  <div class="img2">
+    <img src="img/pizza1.webp" width="200" height="150"/>
+    </div>
+</div>
+
+<div>
+    <div>
+        <button>Medium</button>
+    </div>
+<div class="img2">
+    <img src="img/pizza1.webp" width="150" height="100"/>
+    </div>
+</div>
+
+<div>
+   <div> 
+    <button>Liten</button>
+    </div>
+<div class="img2">
+    <img src="img/pizza1.webp" width="100" height="50"/>
+    </div>
+</div>
+
+
 
 <h1>Pizzavalg</h1>
 
-<div>
+<div class="header1">
     <h3>Topping</h3></div>
-<div> 
+<div class="header1 boks"> 
     <div>Velg opp til 4 alternativer:</div>
     <ul>   
         <li>Peperoni</li>
@@ -28,17 +104,18 @@
         <li>Solmodne tomater</li>
         <li>Ekstra ost</li>
     </ul>
-</div> 
-
-<div>
+    <div>
     <input type="text"/>
 </div>
+</div> 
+
+
 <br/>
 
 
-<div>
+<div class="header1">
     <h3>Tilbehør</h3></div>
-<div> 
+<div class="header1 boks"> 
     <Div>Velg dressing/saus:</Div>
    <ul> 
         <li>Salsa</li>
@@ -48,29 +125,33 @@
         <li>Aioli</li>
         <li>Ketchup</li>
     </ul>
-</div> 
-<div>
+    <div>
     <input type="text"/>
 </div>
+</div> 
 
-<h2>Bestillingsalternativ</h2>
-<div>
+<div class="header1">
+<h3>Bestillingsalternativ</h3>
+<div class="header1 boks link">
 <a href="https://www.peppes.no/" target="_new">Peppes Pizza</a>
 <br/><a href="https://www.pizzabakeren.no/" target="_new">Pizzabakeren</a>
 <br/><a href="https://www.dominos.no" target="_new">Dominos Pizza</a>
 </div>
+</div>
 
 <br/> 
-<div>
-    <img src="img/pizza3.jpg"/>
-</div>
 
-<div>
-    <img src="img/pizza1.webp"/>
-</div>
+<div class="header1">
+    <h2>Sulten?</h2>
+    <div class="header1 boks img">
+    <img src="img/pizza3.jpg" width="300" height="200"/>
+    </div>
 
-<div>
-    <img src="img/pizza2.png"/>
+  
+    <div class="header1 boks img">
+    <img src="img/pizza2.png" width="300" height="200"/>
+    </div>
+
 </div>
 
 
