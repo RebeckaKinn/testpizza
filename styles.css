@@ -53,3 +53,19 @@ div.link {
     border: 2px solid gray;
 
 }
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(220, 159, 18);
+}
+
+
+
+
