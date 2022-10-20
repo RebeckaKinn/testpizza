@@ -56,3 +56,43 @@ function box1() {
     `;
 
 } 
+
+function box2() {
+    document.getElementById("dressing").innerHTML=/*html*/`
+    <div class="boks"> 
+    <Div>Velg dressing/saus:</Div>
+   <ul> 
+        <li>Salsa</li>
+        <li>Rømmedressing</li>
+        <li>BBQ</li>
+        <li>Bernais</li>
+        <li>Aioli</li>
+        <li>Ketchup</li>
+    </ul>
+    <div class="textbox">
+    <input type="text"/>
+</div>
+</div> 
+    `;
+}
+
+function box3() {
+    document.getElementById("link").innerHTML=/*html*/`
+    <div class="boks">
+    <button><a href="https://www.peppes.no/" target="_new">Peppes Pizza</a></button>
+    <button><a href="https://www.pizzabakeren.no/" target="_new">Pizzabakeren</a></button>
+    <button><a href="https://www.dominos.no" target="_new">Dominos Pizza</a></button>
+    </div>
+    `;
+}
+
+function box4() {
+    document.getElementById("bilder").innerHTML=/*html*/`
+    <div class="img">
+    <img src="img/pizza3.jpg" width="300" height="200"/>
+    </div>
+    <div class="img">
+    <img src="img/pizza2.png" width="300" height="200"/>
+    </div>
+    `; 
+}
