@@ -14,7 +14,7 @@
 
     <div class="button1" id="button1">
         <div> 
-            <button onclick="open1()">Stor</button>
+            <button class="top" onclick="open1()">Stor</button>
         </div>
         <div id="img1"></div>
        
@@ -22,14 +22,14 @@
 
 <div class="button2" id="button2">
     <div>
-        <button onclick="open2()">Medium</button>
+        <button class="top" onclick="open2()">Medium</button>
     </div>
 <div id="img2"></div>
 </div>
 
 <div class="button3">
    <div> 
-    <button onclick="open3()">Liten</button>
+    <button class="top" onclick="open3()">Liten</button>
     </div>
 <div id="img3"></div>
 </div>
@@ -38,36 +38,19 @@
 
 <h1>Pizzavalg</h1>
 
-<div class="header1">
+<div>
+<div class="header1" onclick="box1()">
     <h3>Topping</h3></div>
-<div class="header1 boks"> 
-    <div>Velg opp til 4 alternativer:</div>
-    <ul>   
-        <li>Peperoni</li>
-        <li>Skinke</li>
-        <li>Løk</li>
-        <li>Kjøttboller</li>
-        <li>Bacon</li>
-        <li>Ananas</li>
-        <li>Sopp</li>
-        <li>Solmodne tomater</li>
-        <li>Ekstra ost</li>
-    </ul>
-    <div>
-    <input type="text"/>
-    <input type="text"/>
-    <input type="text"/>
-    <input type="text"/>
+    <div id="valg1"></div>
+    <div id="topping"></div>
 </div>
-</div> 
-
-
+ 
 <br/>
 
 
 <div class="header1">
     <h3>Tilbehør</h3></div>
-<div class="header1 boks"> 
+<div class="boks"> 
     <Div>Velg dressing/saus:</Div>
    <ul> 
         <li>Salsa</li>
@@ -84,10 +67,10 @@
 
 <div class="header1">
 <h3>Bestillingsalternativ</h3>
-<div class=" link">
-<a href="https://www.peppes.no/" target="_new">Peppes Pizza</a>
-<br/><a href="https://www.pizzabakeren.no/" target="_new">Pizzabakeren</a>
-<br/><a href="https://www.dominos.no" target="_new">Dominos Pizza</a>
+<div class="boks">
+<button><a href="https://www.peppes.no/" target="_new">Peppes Pizza</a></button>
+<button><a href="https://www.pizzabakeren.no/" target="_new">Pizzabakeren</a></button>
+<button><a href="https://www.dominos.no" target="_new">Dominos Pizza</a></button>
 </div>
 </div>
 

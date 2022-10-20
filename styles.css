@@ -14,7 +14,6 @@ div.header1 {
     text-align: center;
     font-size: 30px;
     width: 400px;
-    padding: 10px;
     border: solid 2px grey;
     user-select: none;
 }
@@ -26,6 +25,9 @@ div.boks {
     flex-direction: column;
     font-size: 18px;
     text-align: left;
+    padding: 1px;
+    width: 400px;
+    user-select: none;
     
 }
 
@@ -61,7 +63,7 @@ div {
     flex-wrap: nowrap;
 }
 
-button{
+button.top{
     height: 30px;
     width: 60px;
     background-color: rgb(220, 159, 18);
