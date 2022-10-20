@@ -4,17 +4,17 @@ h1 {
    padding: 10px;
    border: solid 5px yellow;
    text-align: center;
-   font-size: 300%;
-   width: 30%;
+   font-size: 70px;
+   width: 300px;
 }
 
 div.header1 {
     padding: 1px;
     background-color: lightpink;
     text-align: center;
-    font-size: 120%;
-    width: 30%;
-    padding: 1%;
+    font-size: 30px;
+    width: 300px;
+    padding: 10px;
     border: solid 2px grey;
     user-select: none;
 }
@@ -31,24 +31,24 @@ div.boks {
 
 div.img {
      display: block;
-    margin-left: 13%;
-    margin-right: 20%;
-    width: 71%;
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 1px;
 }
 
 div.img2 {
     display: block;
-    margin-left: 13%;
-    margin-right: 20%;
-    width: 71%;
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 1px;
 }
 
 div.link {
     text-align: left;
     font-style: italic;
-    font-size: 90%;
-    padding: 5%;
-    margin: -16.5px;
+    font-size: 20px;
+    padding: 1px;
+    margin: -12px;
     background-color: lightgray;
     border: 2px solid gray;
 
@@ -66,6 +66,20 @@ button{
     background-color: rgb(220, 159, 18);
 }
 
+div.button1 {
+    text-align: left;
+
+}
+
+div.button2 {
+    text-align: center;
+    
+}
+
+div.button3 {
+    text-align: right;
+    
+}
 
 
 
