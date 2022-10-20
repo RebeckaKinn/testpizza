@@ -47,10 +47,11 @@ div.link {
     text-align: left;
     font-style: italic;
     font-size: 20px;
-    padding: 1px;
     margin: -12px;
     background-color: lightgray;
     border: 2px solid gray;
+    width: 400px;
+    padding: 10px;
 
 }
 
@@ -70,5 +71,3 @@ div.textbox {
     height:200px;
     font-size:14pt;
 }
-
-
