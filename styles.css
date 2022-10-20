@@ -69,6 +69,7 @@ button.top{
 }
 
 div.textbox {
-    height:200px;
+    height: 30px;
+    width: 400px;
     font-size:14pt;
 }
