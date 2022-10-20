@@ -1,11 +1,11 @@
 h1 {
     color: white;
-    background-color: red;
-   padding: 10px;
-   border: solid 5px yellow;
-   text-align: center;
-   font-size: 70px;
-   width: 400px;
+    background-color: rgb(236, 41, 41);
+    padding: 10px;
+    border: solid 5px rgb(132, 16, 16);
+    text-align: center;
+    font-size: 70px;
+    width: 372px;
 }
 
 div.header1 {
@@ -32,7 +32,7 @@ div.boks {
 }
 
 div.img {
-     display: block;
+    display: block;
     margin-left: 45px;
     margin-right: 30px;
     width: 1px;
@@ -46,14 +46,13 @@ div.img2 {
 }
 
 div.link {
-    text-align: left;
+    text-align: center;
     font-style: italic;
     font-size: 20px;
-    margin: -12px;
+    margin: -1.5px;
     background-color: lightgray;
-    border: 2px solid gray;
-    width: 400px;
-    padding: 10px;
+    width: 404px;
+    border-top: 2px solid grey;
 
 }
 

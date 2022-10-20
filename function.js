@@ -78,10 +78,12 @@ function box2() {
 
 function box3() {
     document.getElementById("link").innerHTML=/*html*/`
-    <div class="boks">
+    <div class="link">
+    <br/>
     <a href="https://www.peppes.no/" target="_new">Peppes Pizza</a>
     <a href="https://www.pizzabakeren.no/" target="_new">Pizzabakeren</a>
     <a href="https://www.dominos.no" target="_new">Dominos Pizza</a>
+    <br/>
     </div>
     `;
 }
