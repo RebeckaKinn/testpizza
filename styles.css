@@ -62,10 +62,13 @@ div {
     flex-wrap: nowrap;
 }
 
-button.top{
+button{
+    display: flex;
+    flex-direction: column;
     height: 30px;
     width: 60px;
     background-color: rgb(220, 159, 18);
+    
 }
 
 div.textbox {

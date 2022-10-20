@@ -34,7 +34,6 @@ function box1() {
     document.getElementById("bilder").innerHTML=``;
     document.getElementById("dressing").innerHTML=``;
     document.getElementById("topping").innerHTML=/*html*/`
-    
     <div class="boks" id="valg1"> 
     <div>
     <div>Velg opp til 4 alternativer:</div>
