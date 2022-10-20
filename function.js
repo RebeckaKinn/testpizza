@@ -30,7 +30,9 @@ function open3() {
 }
 
 function box1() {
-    
+    document.getElementById("link").innerHTML=``;
+    document.getElementById("bilder").innerHTML=``;
+    document.getElementById("dressing").innerHTML=``;
     document.getElementById("topping").innerHTML=/*html*/`
     
     <div class="boks" id="valg1"> 
@@ -58,6 +60,9 @@ function box1() {
 } 
 
 function box2() {
+    document.getElementById("link").innerHTML=``;
+    document.getElementById("topping").innerHTML=``;
+    document.getElementById("bilder").innerHTML=``;
     document.getElementById("dressing").innerHTML=/*html*/`
     <div class="boks"> 
     <Div>Velg dressing/saus:</Div>
@@ -77,6 +82,9 @@ function box2() {
 }
 
 function box3() {
+    document.getElementById("topping").innerHTML=``;
+    document.getElementById("dressing").innerHTML=``;
+    document.getElementById("bilder").innerHTML=``;
     document.getElementById("link").innerHTML=/*html*/`
     <div class="link">
     <br/>
@@ -89,6 +97,9 @@ function box3() {
 }
 
 function box4() {
+    document.getElementById("link").innerHTML=``;
+    document.getElementById("topping").innerHTML=``;
+    document.getElementById("dressing").innerHTML=``;
     document.getElementById("bilder").innerHTML=/*html*/`
     <div class="img">
     <img src="img/pizza3.jpg" width="300" height="200"/>
