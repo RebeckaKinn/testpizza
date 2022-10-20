@@ -13,7 +13,7 @@ div.header1 {
     background-color: lightpink;
     text-align: center;
     font-size: 30px;
-    width: 300px;
+    width: 400px;
     padding: 10px;
     border: solid 2px grey;
     user-select: none;
@@ -24,15 +24,15 @@ div.boks {
     border: 2px solid gray;
     display: flex;
     flex-direction: column;
-    font-size: medium;
+    font-size: 18px;
     text-align: left;
     
 }
 
 div.img {
      display: block;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 45px;
+    margin-right: 30px;
     width: 1px;
 }
 
@@ -66,20 +66,9 @@ button{
     background-color: rgb(220, 159, 18);
 }
 
-div.button1 {
-    text-align: left;
-
+div.textbox {
+    height:200px;
+    font-size:14pt;
 }
-
-div.button2 {
-    text-align: center;
-    
-}
-
-div.button3 {
-    text-align: right;
-    
-}
-
 
 
