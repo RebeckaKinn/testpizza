@@ -62,15 +62,6 @@ button{
     background-color: rgb(220, 159, 18);
 }
 
-div.sml {
-  
-}
-
-button.cl {
-    margin: 1px;
-    height: 20px;
-    width: 405px;
-}
 div.textbox {
     height: 30px;
     width: 400px;
