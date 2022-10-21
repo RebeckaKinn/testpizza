@@ -3,7 +3,7 @@ function open1() {
     document.getElementById("img2").innerHTML=``;
     document.getElementById("img1").innerHTML=/*html*/`
     <div class="img2" id="img1">
-    <img src="img/pizza1.webp" width="200" height="150"/>
+    <img src="img/pizza1.webp" width="170" height="120"/>
     </div>
 `; 
 }; 
@@ -23,7 +23,7 @@ function open3() {
     document.getElementById("img2").innerHTML=``;
     document.getElementById("img3").innerHTML=/*html*/`
     <div class="img2" id="img3">
-    <img src="img/pizza1.webp" width="100" height="50"/>
+    <img src="img/pizza1.webp" width="120" height="70"/>
     </div>
 
     `;

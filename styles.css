@@ -57,8 +57,7 @@ div.link {
 }
 
 div.toprow {
-    display: grid;
-    
+    display: flex;
 }
 
 button{
@@ -69,10 +68,6 @@ button{
 
 div.sml {
   margin: 20px;
-}
-
-div.imgpizza {
-   
 }
 
 div.textbox {
