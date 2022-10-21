@@ -6,6 +6,7 @@ h1 {
     text-align: center;
     font-size: 70px;
     width: 372px;
+    margin: 2px;
 }
 
 div.header1 {
@@ -51,24 +52,27 @@ div.link {
     font-size: 20px;
     margin: -1.5px;
     background-color: lightgray;
-    width: 404px;
+    width: 402px;
     border-top: 2px solid grey;
-
 }
 
-div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+div.toprow {
+    display: grid;
+    
 }
 
 button{
-    display: flex;
-    flex-direction: column;
     height: 30px;
     width: 60px;
     background-color: rgb(220, 159, 18);
-    
+}
+
+div.sml {
+  margin: 20px;
+}
+
+div.imgpizza {
+   
 }
 
 div.textbox {
